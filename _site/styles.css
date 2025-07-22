@@ -1,0 +1,96 @@
+/* css styles */
+h1 {
+    color :plum
+}
+
+.aboutme{
+    color:black;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #2c3e50;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 1.8em;
+  color: #1a5276;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.4em;
+  color: #34495e;
+}
+
+.job {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+strong {
+  color: #2e4053;
+}
+
+em {
+  color: #7f8c8d;
+  font-style: italic;
+}
+/* Responsive design */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+}
